@@ -1,0 +1,12 @@
+table, th, td {
+  border: 1px solid;
+}
+
+h1 {
+  color: rgba(252, 58, 9, 0.699);
+}
+
+aside {
+  float: center;
+  padding: 95px;
+}
