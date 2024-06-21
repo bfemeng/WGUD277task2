@@ -25,3 +25,42 @@ nav .nav-item {
   overflow: hidden;
   background-color: #ff9f72;
 }
+
+
+/* flex container */
+#container {
+  display: flex;
+  border: 1px green solid;
+  padding: 5px;
+}
+
+/* flex items */
+#container > div {
+  padding: 10px;
+  border: 1px rgb(255, 36, 7) solid;
+}
+
+
+.image-container {
+  text-align: center; /* Center the image horizontally */
+}
+
+.styled-image {
+  width: 100%; /* Make the image take 100% of the container's width */
+  max-width: 700px; 
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #000; 
+  border-radius: 10px; /* Rounded corners */
+  margin: 50px; /* space around the image */
+  
+}
+
+.page-with-different-image-req {
+  /* Styles for the Tallahassee Image*/
+  width: 100%; /* Make the image take 100% of the container's width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 1000px;  /* Example: Increase size */
+  border: 2px solid #000; 
+  border-radius: 10px; /* Rounded corners */
+  margin: 50px; /* space around the image */
+}
