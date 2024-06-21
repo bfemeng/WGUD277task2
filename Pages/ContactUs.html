@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/style.css">
-        <script src="formValidation.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
 
         <title>Contact Us</title>
     </head>
@@ -38,27 +37,27 @@
                         <input type="text" placeholder="Last Name" name="last">
                     </div>
                     <div class="column">
-                        <input type="text" placeholder="Email Address" name="email">
+                        <input type="text" placeholder="Email Address" name="email" id="email">
                     </div>
                     <div class="column">
-                        <input type="text" placeholder="Confirm Email Address" name="email_verification">
+                        <input type="text" placeholder="Confirm Email Address" name="email_verification" id="email_verification">
                     </div>
                     <div class="column">
                         <input type="text" placeholder="Question? Just ask." name="question">
                     </div>
 
-                
                 <button type="submit" onclick="return validateForm()">Submit</button>
-                
+                <script type="text/javascript" src="../formValidation.js"></script>
             </div>
         </form>
     </div>
 
     </main>
-
+  
     <br
     
     <footer>
         Site by <a href="mailto:shante@cbtayconsulting.com">Shante Torres</a>
      </footer>
+     
 </body>
