@@ -179,7 +179,7 @@ nav .nav-item:hover {
 /* Styling for the info container */
 .info-container {
   flex: 1; /* Allows the aside container to take up available space */
-  max-width: 45%; /* Optional: Set max width for the aside container */
+  max-width: 100%; /* Optional: Set max width for the aside container */
   margin-left: 0px; /* Space between the image and the aside */
 
 }
@@ -189,4 +189,5 @@ nav .nav-item:hover {
   list-style-type: none; /* Remove default list styling */
   padding: 0;
   margin: 0;
+
 }
