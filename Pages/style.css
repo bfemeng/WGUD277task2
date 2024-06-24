@@ -18,6 +18,10 @@ aside {
   padding: 35px;
 }
 
+a:active {
+  background-color: yellow;
+}
+
 /* Style for the nav container */
 nav {
   display: flex;
