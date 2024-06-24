@@ -86,19 +86,37 @@ nav ul {
   padding: 5px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add some space above the button */
+}
+
 .button {
-position: relative;
+  position: relative;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .column {
   float: left;
   width: 100%;
   margin-top: 6px;
+  text-align: center;
   }
 
-  /* .question {
-    height: 50px;
-  } */
+  .question textarea {
+    width: 100%; /* Make the textarea take up the full width of the container */
+    height: 100px; /* Set a height for the textarea */
+    padding: 10px; /* Add padding inside the textarea */
+    margin-block: 20px;
+  
+  }
 
 /* Styling for the image container */
 .styled-image{
