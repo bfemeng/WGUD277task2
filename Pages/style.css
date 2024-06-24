@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: rgba(185, 163, 172, 0.479);
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
 }
@@ -10,6 +10,7 @@ table, th, td {
 
 h1 {
   color: rgba(252, 58, 9, 0.699);
+  text-align: center;
 }
 
 aside {
@@ -17,28 +18,35 @@ aside {
   padding: 35px;
 }
 
-nav .nav-item {
-  float: left;
-  list-style-type: none;
-  margin: 0;
-  padding: 20px;
-  overflow: hidden;
-  background-color: #ff9f72;
-}
-
-
-/* flex container */
-#container {
+/* Style for the nav container */
+nav {
   display: flex;
-  border: 1px green solid;
-  padding: 5px;
+  justify-content: center;
+  background-color: rgb(211, 116, 195); /* Set the background color for the entire nav bar */
+  padding: 10px 0; /* Optional: padding for the nav container */
+  width: 100%;
 }
 
-/* flex items */
-#container > div {
-  padding: 10px;
-  border: 1px rgb(255, 36, 7) solid;
+/* Style for the nav items */
+nav .nav-item {
+  padding: 14px 16px;
+  text-align: center;
 }
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none; /* Remove default list styling */
+}
+
+
+
+.nav-item:hover {
+  background-color: rgb(255, 255, 255);
+
+}
+
 
 
 .image-container {
@@ -52,15 +60,36 @@ nav .nav-item {
   border: 2px solid #000; 
   border-radius: 10px; /* Rounded corners */
   margin: 50px; /* space around the image */
-  
+  float: middle;
 }
 
 .page-with-different-image-req {
   /* Styles for the Tallahassee Image*/
   width: 100%; /* Make the image take 100% of the container's width */
-  height: auto; /* Maintain aspect ratio */
+  height: 100%; /* Maintain aspect ratio */
   max-width: 1000px;  /* Example: Increase size */
   border: 2px solid #000; 
   border-radius: 10px; /* Rounded corners */
   margin: 50px; /* space around the image */
+}
+
+
+.side-info {
+  width: 100%; /* Make the image take 100% of the container's width */
+  max-width: 250px; 
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #000; 
+  border-radius: 10px; /* Rounded corners */
+  margin: 50px; /* space around the image */
+  float: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(211, 116, 195);
+  color: white;
+  text-align: center;
 }
