@@ -40,17 +40,9 @@ nav ul {
   list-style-type: none; /* Remove default list styling */
 }
 
-
-
 .nav-item:hover {
   background-color: rgb(255, 255, 255);
 
-}
-
-
-
-.image-container {
-  text-align: center; /* Center the image horizontally */
 }
 
 .styled-image {
@@ -61,16 +53,6 @@ nav ul {
   border-radius: 10px; /* Rounded corners */
   margin: 50px; /* space around the image */
   float: middle;
-}
-
-.page-with-different-image-req {
-  /* Styles for the Tallahassee Image*/
-  width: 100%; /* Make the image take 100% of the container's width */
-  height: 100%; /* Maintain aspect ratio */
-  max-width: 1000px;  /* Example: Increase size */
-  border: 2px solid #000; 
-  border-radius: 10px; /* Rounded corners */
-  margin: 50px; /* space around the image */
 }
 
 
@@ -92,4 +74,42 @@ nav ul {
   background-color: rgb(211, 116, 195);
   color: white;
   text-align: center;
+}
+
+/* attempting new changes */
+
+/* General styling for the container */
+.container {
+  display: flex;
+  justify-content: center; /* Space between the image and the aside */
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px;
+}
+
+/* Styling for the image container */
+.styled-image{
+  max-width: 100%; /* Optional: Set max width for the image container */
+  margin-right: 450px;
+}
+
+/* Styling for the image */
+.styled-image img {
+  width: 100%; /* Ensures the image takes up the full width of its container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Styling for the info container */
+.info-container {
+  flex: 1; /* Allows the aside container to take up available space */
+  max-width: 45%; /* Optional: Set max width for the aside container */
+  margin-left: 0px; /* Space between the image and the aside */
+
+}
+
+/* Styling for the list within the aside */
+.info-container ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
 }
