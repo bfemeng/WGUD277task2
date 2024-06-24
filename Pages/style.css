@@ -83,12 +83,22 @@ nav ul {
   display: flex;
   justify-content: center; /* Space between the image and the aside */
   align-items: flex-start; /* Align items at the top */
-  padding: 20px;
+  padding: 5px;
 }
 
 .button {
-
+position: relative;
 }
+
+.column {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  }
+
+  /* .question {
+    height: 50px;
+  } */
 
 /* Styling for the image container */
 .styled-image{
