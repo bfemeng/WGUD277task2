@@ -1,7 +1,7 @@
 body {
   background-color: rgba(185, 163, 172, 0.479);
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 table, th, td {
@@ -9,7 +9,7 @@ table, th, td {
 }
 
 h1 {
-  color: rgba(252, 58, 9, 0.699);
+  color: rgba(0, 0, 0, 0.699);
   text-align: center;
 }
 
@@ -27,10 +27,13 @@ nav {
   width: 100%;
 }
 
-/* Style for the nav items */
 nav .nav-item {
   padding: 14px 16px;
   text-align: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px; /* Match the button's border-radius */
 }
 
 nav ul {
@@ -40,9 +43,9 @@ nav ul {
   list-style-type: none; /* Remove default list styling */
 }
 
-.nav-item:hover {
-  background-color: rgb(255, 255, 255);
-
+nav .nav-item:hover {
+  background-color: rgb(255, 255, 255); /* Hover effect */
+  color: rgb(211, 116, 195); /* Change text color on hover to match background */
 }
 
 .styled-image {
@@ -72,51 +75,89 @@ nav ul {
   bottom: 0;
   width: 100%;
   background-color: rgb(211, 116, 195);
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
+
+.footer:hover {
+  background-color: rgb(255, 255, 255); /* Hover effect */
+  color: rgb(211, 116, 195); /* Change text color on hover to match background */
+}
+
+
+
+
+
+
+
 
 /* attempting new changes */
 
 /* General styling for the container */
-.container {
-  display: flex;
-  justify-content: center; /* Space between the image and the aside */
-  align-items: flex-start; /* Align items at the top */
-  padding: 5px;
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px; /* Add some space above the button */
-}
-
-.button {
-  position: relative;
-  padding: 10px 20px;
-  background-color: #4CAF50; /* Green background */
-  color: white; /* White text */
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px; /* Space between rows */
 }
 
 .column {
-  float: left;
-  width: 100%;
-  margin-top: 6px;
-  text-align: center;
-  }
+    flex: 1;
+    padding: 5px; /* Space between columns */
+    min-width: 200px; /* Minimum width to make it responsive */
+}
 
-  .question textarea {
-    width: 100%; /* Make the textarea take up the full width of the container */
-    height: 100px; /* Set a height for the textarea */
-    padding: 10px; /* Add padding inside the textarea */
-    margin-block: 20px;
-  
-  }
+.column input, .question textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+ 
+}
+
+.question{
+  max-width: 600px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 10px;
+ position: relative;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; /* Add some space above the button */
+}
+
+.button {
+    padding: 10px 30px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #8345a0;
+}
+
+
+
+
+
+
+
+
+
 
 /* Styling for the image container */
 .styled-image{
