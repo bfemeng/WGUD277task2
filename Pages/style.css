@@ -86,6 +86,10 @@ nav ul {
   padding: 20px;
 }
 
+.button {
+
+}
+
 /* Styling for the image container */
 .styled-image{
   max-width: 100%; /* Optional: Set max width for the image container */
