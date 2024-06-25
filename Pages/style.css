@@ -83,6 +83,7 @@ h2 {
 }
 
 
+
 .footer {
   position: fixed;
   left: 0;
@@ -138,7 +139,7 @@ h2 {
   max-width: 600px;
   margin: 0 auto; /* Center the container horizontally */
   padding: 10px;
- position: relative;
+  position: relative;
 }
 
 .button-container {
@@ -165,8 +166,15 @@ h2 {
 
 
 
-
-
+/* Styling for the Tampa image */
+.tampa-styled-image {
+  border: 2px solid #000; 
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 50px;
+  max-width: 50%; /* Optional: Set max width for the aside container */
+  margin-right: 50%;
+  padding: 5px; /* Space between columns */
+}
 
 
 
@@ -189,5 +197,4 @@ h2 {
   list-style-type: none; /* Remove default list styling */
   padding: 0;
   margin: 0;
-
 }
