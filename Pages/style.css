@@ -165,6 +165,19 @@ nav .nav-item:hover {
   justify-content: space-between;
 }
 
+/* Styling for the Sun City Center image */
+.sun_city_center_styled_image {
+  border: 2px solid #000; 
+  width: 50%;
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-right: 500px;
+}
+
+
+
+
 /* Styling for the Tampa image */
 .tampa-styled-image {
   border: 2px solid #000; 
