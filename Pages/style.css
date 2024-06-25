@@ -166,16 +166,23 @@ nav .nav-item:hover {
 }
 
 /* Styling for the Sun City Center image */
-.sun_city_center_styled_image {
+
+
+.image-container {
   border: 2px solid #000; 
-  width: 50%;
   border-radius: 10px; /* Rounded corners */
   margin-top: 70px;
   margin-bottom: 50px;
-  margin-right: 500px;
+  margin-right: 50px;
+  display: inline-block; /* Ensures the container fits the image size */
+  overflow: hidden; /* Ensures the image doesn't overflow the container */
 }
 
-
+.sun_city_center_styled_image {
+  width: 50%; /* Shrink the image by half */
+  height: auto; /* Maintain the aspect ratio */
+ 
+}
 
 
 /* Styling for the Tampa image */
