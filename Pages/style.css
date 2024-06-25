@@ -91,18 +91,13 @@ nav .nav-item:hover {
   color: rgb(211, 116, 195); /* Change text color on hover to match background */
 }
 
-
-
-
-
-/* attempting new changes */
-
 /* General styling for the container */
 
   .container {
     max-width: 600px;
     margin: 0 auto; /* Center the container horizontally */
-    padding: 20px;
+    margin-top: 30px;
+    padding: 0;
 }
 
 .row {
@@ -128,7 +123,7 @@ nav .nav-item:hover {
 }
 
 .question{
-  max-width: 600px;
+
   margin: 0 auto; /* Center the container horizontally */
   padding: 10px;
   position: relative;
@@ -137,7 +132,8 @@ nav .nav-item:hover {
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px; /* Add some space above the button */
+    margin-top: 10px; /* Add some space above the button */
+    
 }
 
 .button {
