@@ -53,18 +53,6 @@ nav .nav-item:hover {
   color: rgb(211, 116, 195); /* Change text color on hover to match background */
 }
 
-.styled-image {
-  border: 2px solid #000; 
-  border-radius: 10px; /* Rounded corners */
-  margin-top: 50px;
-}
-
-/* Sources */
-.box {
-  display: flex;
-  justify-content: space-between;
-}
-
 .sources {
   padding: 20px;
   background-color: #f9f9f9;
@@ -166,31 +154,42 @@ h2 {
 
 
 
+/* Box styling for facts and image */
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Styling for the Tampa image */
 .tampa-styled-image {
   border: 2px solid #000; 
   border-radius: 10px; /* Rounded corners */
-  margin-top: 50px;
-  max-width: 50%; /* Optional: Set max width for the aside container */
-  margin-right: 50%;
-  padding: 5px; /* Space between columns */
+  margin-top: 100px;
+  margin-bottom: 600px;
+  margin-right: 150px;
+  margin-left: 10px;
 }
 
 
 
-/* Styling for the image container */
-.styled-image{
+/* Styling for the Tallahassee image */
+.styled-image {
+  border: 2px solid #000; 
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 50px;
   max-width: 100%; /* Optional: Set max width for the image container */
   margin-right: 450px;
 }
-
 
 /* Styling for the info container */
 .info-container {
   flex: 2; /* Allows the aside container to take up twice the space compared to other flex items with flex: 1 */
   max-width: 100%; /* Optional: Set max width for the aside container */
-  margin-left: 0px;
+  margin-left: 80px;
+  align-items: center; /* Centers content vertically */
 }
+
 
 /* Styling for the list within the aside */
 .info-container ul {
