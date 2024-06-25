@@ -2,6 +2,7 @@ body {
   background-color: rgba(185, 163, 172, 0.479);
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
+
 }
 
 table, th, td {
@@ -9,7 +10,6 @@ table, th, td {
 }
 
 h1 {
-  color: rgba(0, 0, 0, 0.699);
   text-align: center;
 }
 
@@ -29,6 +29,7 @@ nav {
   background-color: rgb(211, 116, 195); /* Set the background color for the entire nav bar */
   padding: 10px 0; /* Optional: padding for the nav container */
   width: 100%;
+  border-radius: 20px; /* Rounded corners */
 }
 
 nav .nav-item {
@@ -53,25 +54,34 @@ nav .nav-item:hover {
 }
 
 .styled-image {
-  width: 100%; /* Make the image take 100% of the container's width */
-  max-width: 700px; 
-  height: auto; /* Maintain aspect ratio */
   border: 2px solid #000; 
   border-radius: 10px; /* Rounded corners */
-  margin: 50px; /* space around the image */
-  float: middle;
+  margin-top: 50px;
 }
 
+/* Sources */
+.box {
+  display: flex;
+  justify-content: space-between;
+}
 
-.side-info {
-  width: 100%; /* Make the image take 100% of the container's width */
-  max-width: 250px; 
-  height: auto; /* Maintain aspect ratio */
-  border: 2px solid #000; 
+.sources {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   border-radius: 10px; /* Rounded corners */
-  margin: 50px; /* space around the image */
-  float: left;
+  margin: 50px auto;
+  font-size: 15px;
+  width: 20%;
+  text-align: center;
 }
+
+h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
 
 .footer {
   position: fixed;
@@ -87,9 +97,6 @@ nav .nav-item:hover {
   background-color: rgb(255, 255, 255); /* Hover effect */
   color: rgb(211, 116, 195); /* Change text color on hover to match background */
 }
-
-
-
 
 
 
@@ -169,19 +176,12 @@ nav .nav-item:hover {
   margin-right: 450px;
 }
 
-/* Styling for the image */
-.styled-image img {
-  width: 100%; /* Ensures the image takes up the full width of its container */
-  height: auto; /* Maintains the aspect ratio of the image */
-  border-radius: 10px; /* Rounded corners */
-}
 
 /* Styling for the info container */
 .info-container {
-  flex: 1; /* Allows the aside container to take up available space */
+  flex: 2; /* Allows the aside container to take up twice the space compared to other flex items with flex: 1 */
   max-width: 100%; /* Optional: Set max width for the aside container */
-  margin-left: 0px; /* Space between the image and the aside */
-
+  margin-left: 0px;
 }
 
 /* Styling for the list within the aside */
