@@ -70,6 +70,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 
 
 .footer {
@@ -165,10 +171,9 @@ h2 {
 .tampa-styled-image {
   border: 2px solid #000; 
   border-radius: 10px; /* Rounded corners */
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 600px;
-  margin-right: 150px;
-  margin-left: 10px;
+  margin-right: 500px;
 }
 
 
