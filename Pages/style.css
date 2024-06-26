@@ -5,8 +5,24 @@ body {
 
 }
 
-table, th, td {
+table {
+
+  border: 10px solid;
+}
+
+th {
+  background-color: rgb(211, 116, 195); 
+  color: white;
+}
+
+th, td {
   border: 1px solid;
+  
+  
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
 h1 {
@@ -73,6 +89,7 @@ nav .nav-item:hover {
   font-size: 15px;
   width: 20%;
   text-align: center;
+  margin: 50px auto 100px auto;
 }
 
 
@@ -84,7 +101,7 @@ nav .nav-item:hover {
   background-color: rgb(211, 116, 195);
   color: rgb(0, 0, 0);
   text-align: center;
-}
+  }
 
 .footer:hover {
   background-color: rgb(255, 255, 255); /* Hover effect */
@@ -160,6 +177,15 @@ nav .nav-item:hover {
   display: flex;
   justify-content: space-between;
 }
+
+/* Styling for Florida state map image */
+
+.florida_by_county_image {
+  height: auto; /* Maintain the aspect ratio */
+  text-align: center;
+  margin-top: -125px;
+}
+
 
 /* Styling for the Sun City Center image */
 
