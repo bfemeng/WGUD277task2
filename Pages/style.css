@@ -2,7 +2,6 @@ body {
   background-color: rgba(185, 163, 172, 0.479);
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
-
 }
 
 table {
@@ -17,8 +16,6 @@ th {
 
 th, td {
   border: 1px solid;
-  
-  
 }
 
 tr:nth-child(even) {
@@ -28,7 +25,6 @@ tr:nth-child(even) {
 h1 {
   text-align: center;
 }
-
 
 h2 {
   margin-bottom: 10px;
@@ -53,7 +49,7 @@ nav {
   display: flex;
   justify-content: center;
   background-color: rgb(211, 116, 195); /* Set the background color for the entire nav bar */
-  padding: 10px 0; /* Optional: padding for the nav container */
+  padding: 10px 0; 
   width: 100%;
   border-radius: 20px; /* Rounded corners */
 }
@@ -64,7 +60,7 @@ nav .nav-item {
   color: white;
   text-decoration: none;
   display: inline-block;
-  border-radius: 4px; /* Match the button's border-radius */
+  border-radius: 4px; 
 }
 
 nav ul {
@@ -92,7 +88,6 @@ nav .nav-item:hover {
   margin: 50px auto 100px auto;
 }
 
-
 .footer {
   position: fixed;
   left: 0;
@@ -107,8 +102,6 @@ nav .nav-item:hover {
   background-color: rgb(255, 255, 255); /* Hover effect */
   color: rgb(211, 116, 195); /* Change text color on hover to match background */
 }
-
-/* General styling for the container */
 
   .container {
     max-width: 600px;
@@ -126,7 +119,7 @@ nav .nav-item:hover {
 .column {
     flex: 1;
     padding: 5px; /* Space between columns */
-    min-width: 200px; /* Minimum width to make it responsive */
+    min-width: 200px; 
 }
 
 .column input, .question textarea {
@@ -140,8 +133,7 @@ nav .nav-item:hover {
 }
 
 .question{
-
-  margin: 0 auto; /* Center the container horizontally */
+  margin: 0 auto; 
   padding: 10px;
   position: relative;
 }
@@ -149,13 +141,12 @@ nav .nav-item:hover {
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 10px; /* Add some space above the button */
-    
+    margin-top: 10px; /* Add some space above the button */ 
 }
 
 .button {
     padding: 10px 30px;
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50; 
     color: white; /* White text */
     border: none;
     border-radius: 4px;
@@ -167,29 +158,20 @@ nav .nav-item:hover {
     background-color: #8345a0;
 }
 
-
-
-
-
 /* Box styling for facts and image */
-
 .box {
   display: flex;
   justify-content: space-between;
 }
 
 /* Styling for Florida state map image */
-
 .florida_by_county_image {
   height: auto; /* Maintain the aspect ratio */
   text-align: center;
   margin-top: -125px;
 }
 
-
 /* Styling for the Sun City Center image */
-
-
 .image-container {
   border: 2px solid #000; 
   border-radius: 10px; /* Rounded corners */
@@ -206,7 +188,6 @@ nav .nav-item:hover {
  
 }
 
-
 /* Styling for the Tampa image */
 .tampa-styled-image {
   border: 2px solid #000; 
@@ -215,8 +196,6 @@ nav .nav-item:hover {
   margin-bottom: 600px;
   margin-right: 500px;
 }
-
-
 
 /* Styling for the Tallahassee image */
 .styled-image {
@@ -229,7 +208,7 @@ nav .nav-item:hover {
 
 /* Styling for the info container */
 .info-container {
-  flex: 2; /* Allows the aside container to take up twice the space compared to other flex items with flex: 1 */
+  flex: 2; 
   max-width: 100%; /* Optional: Set max width for the aside container */
   margin-left: 80px;
   align-items: center; /* Centers content vertically */
@@ -239,9 +218,7 @@ nav .nav-item:hover {
   list-style-type: none; /* Remove default list styling */
   padding: 0;
   margin: 0;
-
 }
-
 
 /* Styling for the list within the aside */
 .info-container ul {
