@@ -90,8 +90,6 @@ nav .nav-item:hover {
 
 .footer {
   position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: rgb(211, 116, 195);
   color: rgb(0, 0, 0);
@@ -172,23 +170,6 @@ nav .nav-item:hover {
   margin-top: -125px;
 }
 
-/* Styling for the Sun City Center image */
-.image-container {
-  border: 2px solid #000; 
-  border-radius: 10px; /* Rounded corners */
-  margin-top: 70px;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  display: inline-block; /* Ensures the container fits the image size */
-  overflow: hidden; /* Ensures the image doesn't overflow the container */
-}
-
-.sun_city_center_styled_image {
-  width: 50%; /* Shrink the image by half */
-  height: auto; /* Maintain the aspect ratio */
- 
-}
-
 /* Styling for the Tampa image */
 .tampa-styled-image {
   border: 2px solid #000; 
@@ -207,6 +188,10 @@ nav .nav-item:hover {
   margin-right: 450px;
 }
 
+.sun_city_image {
+  border: 2px solid #000; 
+  border-radius: 10px; /* Rounded corners */
+}
 /* Styling for the info container */
 .info-container {
   flex: 2; 
@@ -226,4 +211,9 @@ nav .nav-item:hover {
   list-style-type: none; /* Remove default list styling */
   padding: 0;
   margin: 0;
+}
+
+.container {
+  display: inline-flex;
+  gap: 10px; /* Adjust the gap as needed */
 }
