@@ -217,3 +217,8 @@ nav .nav-item:hover {
   display: inline-flex;
   gap: 10px; /* Adjust the gap as needed */
 }
+
+.form_container {
+  display: inline-flex;
+  margin: 50px;
+}
