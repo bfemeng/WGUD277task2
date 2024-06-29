@@ -1,0 +1,1 @@
+Task 2 of the course D277 Front-end Development at WGU. 

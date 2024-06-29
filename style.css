@@ -160,7 +160,7 @@ nav .nav-item:hover {
 .florida_by_county_image {
   height: auto; /* Maintain the aspect ratio */
   text-align: center;
-  margin-top: -125px;
+  margin-top: 35px; 
 }
 
 /* Styling for the Tampa image */
