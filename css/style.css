@@ -203,3 +203,7 @@ nav .nav-item:hover {
   display: inline-flex;
   margin: 50px;
 }
+
+.contact_us {
+  padding: 10px 30px;
+}
